@@ -33,7 +33,7 @@ delay(hiz);
   {
 govdemotor.write(derece);
 delay(hiz);
-  }/*
+  }
  for(byte derece=90;derece>=70;derece--)
   {
 dirsekmotor.write(derece);
@@ -43,7 +43,7 @@ delay(50);
   {
 tirnakmotor.write(derece);
 delay(50);
-  }*/
+  }
 }
 
 byte calibre(byte basla, byte bitis)
